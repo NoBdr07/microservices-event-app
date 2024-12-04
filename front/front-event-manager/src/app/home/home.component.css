@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .event-card {
+    width: 300px;
+    border: solid 1px;
+  border-radius: 10px;
+  }
+  
+  .tag {
+    background-color: #e0f7fa;
+    color: #00695c;
+    border-radius: 5px;
+    padding: 2px 6px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+
+  mat-card-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+  }
+
+  mat-card-title {
+    text-align: center;
+  }
+  
